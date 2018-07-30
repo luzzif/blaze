@@ -9,6 +9,7 @@ let mainWindow;
 
 const createWindow = () => {
     mainWindow = new BrowserWindow();
+    mainWindow.setMenu(null);
     const startUrl =
         process.env.ELECTRON_START_URL ||
         url.format({
