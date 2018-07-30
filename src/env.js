@@ -1,0 +1,1 @@
+module.exports.DEV_TOOLS = process.env.REACT_APP_DEVELOPER_TOOLS;

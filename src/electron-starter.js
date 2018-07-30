@@ -4,8 +4,15 @@ const BrowserWindow = electron.BrowserWindow;
 
 const path = require("path");
 const url = require("url");
+const PATHS = require("./env");
 
 let mainWindow;
+
+const installExtenstions = () => {
+    PATHS.DEV_TOOLS.split(",").forEach(extensionPath =>
+        BrowserWindow.addDevToolsExtension(extensionPath)
+    );
+};
 
 const createWindow = () => {
     mainWindow = new BrowserWindow();
@@ -22,6 +29,7 @@ const createWindow = () => {
     mainWindow.on("closed", () => {
         mainWindow = null;
     });
+    installExtenstions();
 };
 
 app.on("ready", createWindow);
