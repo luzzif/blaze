@@ -9,9 +9,11 @@ const PATHS = require("./env");
 let mainWindow;
 
 const installExtenstions = () => {
-    PATHS.EXTENSION_IDS.split(",").forEach(extensionPath =>
-        BrowserWindow.addDevToolsExtension(PATHS.BASE_PATH + extensionPath)
-    );
+    const { EXTENSION_IDS, BASE_PATH } = PATHS;
+    (EXTENSION_IDS && BASE_PATH) &&
+        EXTENSION_IDS.split(",").forEach(extensionPath =>
+            BrowserWindow.addDevToolsExtension(BASE_PATH + extensionPath)
+        );
 };
 
 const createWindow = () => {
