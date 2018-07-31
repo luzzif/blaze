@@ -1,14 +1,26 @@
 {
     "name": "electron-with-create-react-app",
     "version": "0.1.0",
+    "main": "src/electron-starter.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "electron": "electron .",
+        "dev": "nf start -p 3000"
+    },
     "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-jest": "^23.4.2",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
         "electron": "^1.7.9",
-        "enzyme": "^3.3.0",
-        "enzyme-adapter-react-16": "^1.1.1",
         "foreman": "^2.0.0",
-        "jest": "^23.4.2",
-        "jest-enzyme": "^6.0.2",
-        "react-scripts": "0.8.5"
+        "jsdom": "^11.12.0",
+        "raf": "^3.4.0",
+        "react-scripts": "0.8.5",
+        "react-test-renderer": "^16.4.1"
     },
     "dependencies": {
         "@material-ui/core": "^1.4.2",
@@ -19,22 +31,5 @@
         "react-motion": "^0.5.2",
         "react-redux": "^5.0.7",
         "redux": "^4.0.0"
-    },
-    "main": "src/electron-starter.js",
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject",
-        "electron": "electron .",
-        "dev": "nf start -p 3000"
-    },
-    "jest": {
-        "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
-        "unmockedModulePathPatterns": [
-            "react",
-            "enzyme",
-            "jest-enzyme"
-        ]
     }
 }

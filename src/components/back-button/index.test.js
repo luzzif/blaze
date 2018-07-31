@@ -1,19 +1,16 @@
 import React from "react";
-import { mount } from "enzyme";
 import { BackButton } from ".";
+import TestRenderer from "react-test-renderer";
 
+// TODO: move in dedicated integration tests directory
 describe("back button", () => {
-    let mountedComponentRoot = null;
+    let testInstance = null;
 
     beforeEach(() => {
-        mountedComponentRoot = mount(<BackButton />).find("div")[0];
+        testInstance = TestRenderer.create(<BackButton />);
     });
 
-    it("always render a div", () => {
-        expect(mountedComponentRoot).toBeTruthy();
-    });
-
-    it("should be a clickable button", () => {
-        expect(mountedComponentRoot.find("button")).toBeTruthy();
+    it("should be clickable", () => {
+        testInstance.root.findByType("button").props.onKeyDown({});
     });
 });
