@@ -8,7 +8,7 @@ const PATHS = require("./env");
 
 let mainWindow;
 
-const installExtenstions = () => {
+const installExtensions = () => {
     const { EXTENSION_IDS, BASE_PATH } = PATHS;
     (EXTENSION_IDS && BASE_PATH) &&
         EXTENSION_IDS.split(",").forEach(extensionPath =>
@@ -31,7 +31,7 @@ const createWindow = () => {
     mainWindow.on("closed", () => {
         mainWindow = null;
     });
-    installExtenstions();
+    installExtensions();
 };
 
 app.on("ready", createWindow);
