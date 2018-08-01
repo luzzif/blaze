@@ -1,8 +1,7 @@
 import React from "react";
-import { BackButton } from ".";
+import { BackButton } from "./../../../components/back-button";
 import TestRenderer from "react-test-renderer";
 
-// TODO: move in dedicated integration tests directory
 describe("back button", () => {
     let testInstance = null;
 
@@ -12,5 +11,6 @@ describe("back button", () => {
 
     it("should be clickable", () => {
         testInstance.root.findByType("button").props.onKeyDown({});
+        expect(testInstance).toMatchSnapshot();
     });
 });

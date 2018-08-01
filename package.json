@@ -17,8 +17,6 @@
         "babel-preset-react": "^6.24.1",
         "electron": "^1.7.9",
         "foreman": "^2.0.0",
-        "jsdom": "^11.12.0",
-        "raf": "^3.4.0",
         "react-scripts": "0.8.5",
         "react-test-renderer": "^16.4.1",
         "spawn-sync": "^2.0.0"
@@ -26,7 +24,9 @@
     "dependencies": {
         "@material-ui/core": "^1.4.2",
         "@material-ui/icons": "^2.0.0",
+        "babel-polyfill": "^6.26.0",
         "prop-types": "^15.6.2",
+        "raf": "^3.4.0",
         "react": "^16.1.1",
         "react-dom": "^16.1.1",
         "react-motion": "^0.5.2",
