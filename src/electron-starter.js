@@ -10,7 +10,8 @@ let mainWindow;
 
 const installExtensions = () => {
     const { EXTENSION_IDS, BASE_PATH } = PATHS;
-    (EXTENSION_IDS && BASE_PATH) &&
+    EXTENSION_IDS &&
+        BASE_PATH &&
         EXTENSION_IDS.split(",").forEach(extensionPath =>
             BrowserWindow.addDevToolsExtension(BASE_PATH + extensionPath)
         );
@@ -31,7 +32,9 @@ const createWindow = () => {
     mainWindow.on("closed", () => {
         mainWindow = null;
     });
-    installExtensions();
+    if (process.env.NODE_ENV === "dev") {
+        installExtensions();
+    }
 };
 
 app.on("ready", createWindow);

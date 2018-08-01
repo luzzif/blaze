@@ -21,6 +21,15 @@ REACT_APP_DEVELOPER_TOOLS="/id1/1.0.1,/id2/1.2.3"
 Follow [this](https://electronjs.org/docs/tutorial/devtools-extension) if you need help in
 finding the chrome extensions paths; it also states the supported extensions.
 
+Now that you have configured the extensions to load, it's time to enable them by 
+defining another env:
+
+```
+NODE_ENV="dev"
+```
+
+The developer tools extensions will be installed only on development environment.
+
 # Commit Message Format
 
 Each commit message consists of a header and an optional body, separated by an
