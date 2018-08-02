@@ -104,75 +104,52 @@ Array [
                 className="MuiTouchRipple-root-49" />
         </button>
         <div
-            className="MuiGrid-container-58 MuiGrid-justify-xs-center-75">
+            className="MuiPaper-root-4 MuiPaper-elevation1-7 MuiPaper-rounded-5 MuiCard-root-3 BasicSearchBar-root-58">
             <div
-                className="MuiGrid-item-59 MuiGrid-grid-md-6-120">
+                className="MuiCardContent-root-31 BasicSearchBar-content-59">
                 <div
-                    className="MuiPaper-root-4 MuiPaper-elevation1-7 MuiPaper-rounded-5 MuiCard-root-3 BasicSearchBar-root-155"
-                    style={
-                        Object {
-                            "width": "auto",
-                          }
-                    }>
-                    <div
-                        className="MuiCardContent-root-31 BasicSearchBar-content-156">
-                        <div
-                            className="MuiGrid-container-58 MuiGrid-align-items-xs-center-66">
-                            <div
-                                className="MuiGrid-item-59 MuiGrid-grid-md-11-125">
-                                <input
-                                    className="BasicSearchBar-input-157"
-                                    type="text" />
-                            </div>
-                            <div
-                                className="MuiGrid-item-59 MuiGrid-grid-md-1-115">
-                                <div
-                                    className="MuiGrid-container-58 MuiGrid-justify-xs-flex-end-76">
-                                    <div
-                                        className="MuiGrid-item-59">
-                                        <button
-                                            className="MuiButtonBase-root-39 MuiIconButton-root-33 BasicFavoriteButton-root-158"
-                                            disabled={false}
-                                            onBlur={[Function]}
-                                            onFocus={[Function]}
-                                            onKeyDown={[Function]}
-                                            onKeyUp={[Function]}
-                                            onMouseDown={[Function]}
-                                            onMouseLeave={[Function]}
-                                            onMouseUp={[Function]}
-                                            onTouchEnd={[Function]}
-                                            onTouchMove={[Function]}
-                                            onTouchStart={[Function]}
-                                            tabIndex="0"
-                                            type="button">
-                                            <span
-                                                className="MuiIconButton-label-38">
-                                                <svg
-                                                    aria-hidden="true"
-                                                    className="MuiSvgIcon-root-42"
-                                                    color={undefined}
-                                                    focusable="false"
-                                                    viewBox="0 0 24 24">
-                                                    <path
-                                                        d="M0 0h24v24H0z"
-                                                        fill="none" />
-                                                    <path
-                                                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-                                                </svg>
-                                            </span>
-                                            <span
-                                                className="MuiTouchRipple-root-49" />
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    className="BasicSearchBar-container-60">
+                    <input
+                        className="BasicSearchBar-input-61"
+                        type="text" />
+                    <button
+                        className="MuiButtonBase-root-39 MuiIconButton-root-33 BasicFavoriteButton-root-62"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex="0"
+                        type="button">
+                        <span
+                            className="MuiIconButton-label-38">
+                            <svg
+                                aria-hidden="true"
+                                className="MuiSvgIcon-root-42"
+                                color={undefined}
+                                focusable="false"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M0 0h24v24H0z"
+                                    fill="none" />
+                                <path
+                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                            </svg>
+                        </span>
+                        <span
+                            className="MuiTouchRipple-root-49" />
+                    </button>
                 </div>
             </div>
         </div>
         <button
-            className="MuiButtonBase-root-39 MuiIconButton-root-33 BasicSettingsButton-root-159"
+            className="MuiButtonBase-root-39 MuiIconButton-root-33 BasicSettingsButton-root-63"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -207,7 +184,7 @@ Array [
     </div>
 </div>,
   <webview
-    className="BasicWebView-root-160"
+    className="BasicWebView-root-64"
     src="http://www.github.com" />,
 ]
 `;
