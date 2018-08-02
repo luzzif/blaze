@@ -8,6 +8,10 @@ const PATHS = require("./env");
 
 let mainWindow;
 
+const isDev = () => {
+    return process.mainModule.filename.indexOf("app.asar") === -1;
+};
+
 const installExtensions = () => {
     const { EXTENSION_IDS, BASE_PATH } = PATHS;
     EXTENSION_IDS &&
@@ -32,7 +36,7 @@ const createWindow = () => {
     mainWindow.on("closed", () => {
         mainWindow = null;
     });
-    if (process.env.NODE_ENV === "dev") {
+    if (isDev()) {
         installExtensions();
     }
 };
