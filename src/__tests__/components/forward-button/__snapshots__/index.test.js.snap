@@ -1,0 +1,143 @@
+exports[`forward button renders correctly 1`] = `
+<button
+  className="MuiButtonBase-root-8 MuiIconButton-root-2 BasicForwardButton-root-1"
+  disabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex="0"
+  type="button">
+  <span
+    className="MuiIconButton-label-7">
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-11"
+      color={undefined}
+      focusable="false"
+      viewBox="0 0 24 24">
+      <path
+        d="M0 0h24v24H0z"
+        fill="none" />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+    </svg>
+  </span>
+  <span
+    className="MuiTouchRipple-root-18" />
+</button>
+`;
+
+exports[`forward button renders correctly 2`] = `
+<button
+  className="MuiButtonBase-root-8 MuiIconButton-root-2 BasicForwardButton-root-1"
+  disabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex="0"
+  type="button">
+  <span
+    className="MuiIconButton-label-7">
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-11"
+      color={undefined}
+      focusable="false"
+      viewBox="0 0 24 24">
+      <path
+        d="M0 0h24v24H0z"
+        fill="none" />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+    </svg>
+  </span>
+  <span
+    className="MuiTouchRipple-root-18" />
+</button>
+`;
+
+exports[`forward button should be clickable 1`] = `
+<button
+  className="MuiButtonBase-root-8 MuiIconButton-root-2 BasicForwardButton-root-1"
+  disabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex="0"
+  type="button">
+  <span
+    className="MuiIconButton-label-7">
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-11"
+      color={undefined}
+      focusable="false"
+      viewBox="0 0 24 24">
+      <path
+        d="M0 0h24v24H0z"
+        fill="none" />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+    </svg>
+  </span>
+  <span
+    className="MuiTouchRipple-root-18" />
+</button>
+`;
+
+exports[`forward button should contain a arrow forward icon 1`] = `
+<button
+  className="MuiButtonBase-root-8 MuiIconButton-root-2 BasicForwardButton-root-1"
+  disabled={false}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex="0"
+  type="button">
+  <span
+    className="MuiIconButton-label-7">
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-11"
+      color={undefined}
+      focusable="false"
+      viewBox="0 0 24 24">
+      <path
+        d="M0 0h24v24H0z"
+        fill="none" />
+      <path
+        d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+    </svg>
+  </span>
+  <span
+    className="MuiTouchRipple-root-18" />
+</button>
+`;

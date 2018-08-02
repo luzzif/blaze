@@ -1,4 +1,5 @@
 import React from "react";
+import { ArrowBack } from "@material-ui/icons";
 import { BackButton } from "./../../../components/back-button";
 import TestRenderer from "react-test-renderer";
 
@@ -9,8 +10,16 @@ describe("back button", () => {
         testInstance = TestRenderer.create(<BackButton />);
     });
 
+    it("renders correctly", () => {
+        expect(testInstance).toMatchSnapshot();
+    });
+
     it("should be clickable", () => {
-        testInstance.root.findByType("button").props.onKeyDown({});
+        expect(testInstance.root.findByType("button").props.disabled).toBe(false);
+    });
+
+    it("should contain a arrow back icon", () => {
+        expect(testInstance.root.findByType(ArrowBack)).toBeTruthy();
         expect(testInstance).toMatchSnapshot();
     });
 });
