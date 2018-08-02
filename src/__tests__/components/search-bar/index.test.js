@@ -16,7 +16,9 @@ describe("search bar", () => {
     });
 
     it("should contain an input of type text", () => {
-        expect(testInstance.root.findByType("input").props.type).toBe("text");
+        const inputElement = testInstance.root.findByType("input");
+        expect(inputElement).toBeTruthy();
+        expect(inputElement.props.type).toBe("text");
         expect(testInstance).toMatchSnapshot();
     });
 

@@ -108,7 +108,12 @@ Array [
             <div
                 className="MuiGrid-item-59 MuiGrid-grid-md-6-120">
                 <div
-                    className="MuiPaper-root-4 MuiPaper-elevation1-7 MuiPaper-rounded-5 MuiCard-root-3 BasicSearchBar-root-155">
+                    className="MuiPaper-root-4 MuiPaper-elevation1-7 MuiPaper-rounded-5 MuiCard-root-3 BasicSearchBar-root-155"
+                    style={
+                        Object {
+                            "width": "auto",
+                          }
+                    }>
                     <div
                         className="MuiCardContent-root-31 BasicSearchBar-content-156">
                         <div

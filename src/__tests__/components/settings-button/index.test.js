@@ -16,7 +16,7 @@ describe("settings button", () => {
     });
 
     it("should be clickable", () => {
-        testInstance.root.findByType("button").props.onKeyDown({});
+        expect(testInstance.root.findByType("button").props.disabled).toBe(false);
         expect(testInstance).toMatchSnapshot();
     });
 
