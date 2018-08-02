@@ -1,0 +1,419 @@
+exports[`back button should contain a favorite button 1`] = `
+<div
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-32 BasicSearchBar-content-2">
+    <div
+      className="MuiGrid-container-33 MuiGrid-align-items-xs-center-41">
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-11-100">
+        <input
+          className="BasicSearchBar-input-3"
+          type="text" />
+      </div>
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-1-90">
+        <div
+          className="MuiGrid-container-33 MuiGrid-justify-xs-flex-end-51">
+          <div
+            className="MuiGrid-item-34">
+            <button
+              className="MuiButtonBase-root-137 MuiIconButton-root-131 BasicFavoriteButton-root-130"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button">
+              <span
+                className="MuiIconButton-label-136">
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-140"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-147" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`back button should contain an input of type text 1`] = `
+<div
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-32 BasicSearchBar-content-2">
+    <div
+      className="MuiGrid-container-33 MuiGrid-align-items-xs-center-41">
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-11-100">
+        <input
+          className="BasicSearchBar-input-3"
+          type="text" />
+      </div>
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-1-90">
+        <div
+          className="MuiGrid-container-33 MuiGrid-justify-xs-flex-end-51">
+          <div
+            className="MuiGrid-item-34">
+            <button
+              className="MuiButtonBase-root-137 MuiIconButton-root-131 BasicFavoriteButton-root-130"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button">
+              <span
+                className="MuiIconButton-label-136">
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-140"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-147" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`seacrh bar should contain a favorite button 1`] = `
+<div
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-32 BasicSearchBar-content-2">
+    <div
+      className="MuiGrid-container-33 MuiGrid-align-items-xs-center-41">
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-11-100">
+        <input
+          className="BasicSearchBar-input-3"
+          type="text" />
+      </div>
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-1-90">
+        <div
+          className="MuiGrid-container-33 MuiGrid-justify-xs-flex-end-51">
+          <div
+            className="MuiGrid-item-34">
+            <button
+              className="MuiButtonBase-root-137 MuiIconButton-root-131 BasicFavoriteButton-root-130"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button">
+              <span
+                className="MuiIconButton-label-136">
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-140"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-147" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`seacrh bar should contain an input of type text 1`] = `
+<div
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-32 BasicSearchBar-content-2">
+    <div
+      className="MuiGrid-container-33 MuiGrid-align-items-xs-center-41">
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-11-100">
+        <input
+          className="BasicSearchBar-input-3"
+          type="text" />
+      </div>
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-1-90">
+        <div
+          className="MuiGrid-container-33 MuiGrid-justify-xs-flex-end-51">
+          <div
+            className="MuiGrid-item-34">
+            <button
+              className="MuiButtonBase-root-137 MuiIconButton-root-131 BasicFavoriteButton-root-130"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button">
+              <span
+                className="MuiIconButton-label-136">
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-140"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-147" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`search bar should be rendered 1`] = `
+<div
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-32 BasicSearchBar-content-2">
+    <div
+      className="MuiGrid-container-33 MuiGrid-align-items-xs-center-41">
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-11-100">
+        <input
+          className="BasicSearchBar-input-3"
+          type="text" />
+      </div>
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-1-90">
+        <div
+          className="MuiGrid-container-33 MuiGrid-justify-xs-flex-end-51">
+          <div
+            className="MuiGrid-item-34">
+            <button
+              className="MuiButtonBase-root-137 MuiIconButton-root-131 BasicFavoriteButton-root-130"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button">
+              <span
+                className="MuiIconButton-label-136">
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-140"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-147" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`search bar should contain a favorite button 1`] = `
+<div
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-32 BasicSearchBar-content-2">
+    <div
+      className="MuiGrid-container-33 MuiGrid-align-items-xs-center-41">
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-11-100">
+        <input
+          className="BasicSearchBar-input-3"
+          type="text" />
+      </div>
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-1-90">
+        <div
+          className="MuiGrid-container-33 MuiGrid-justify-xs-flex-end-51">
+          <div
+            className="MuiGrid-item-34">
+            <button
+              className="MuiButtonBase-root-137 MuiIconButton-root-131 BasicFavoriteButton-root-130"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button">
+              <span
+                className="MuiIconButton-label-136">
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-140"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-147" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`search bar should contain an input of type text 1`] = `
+<div
+  className="MuiPaper-root-5 MuiPaper-elevation1-8 MuiPaper-rounded-6 MuiCard-root-4 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-32 BasicSearchBar-content-2">
+    <div
+      className="MuiGrid-container-33 MuiGrid-align-items-xs-center-41">
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-11-100">
+        <input
+          className="BasicSearchBar-input-3"
+          type="text" />
+      </div>
+      <div
+        className="MuiGrid-item-34 MuiGrid-grid-md-1-90">
+        <div
+          className="MuiGrid-container-33 MuiGrid-justify-xs-flex-end-51">
+          <div
+            className="MuiGrid-item-34">
+            <button
+              className="MuiButtonBase-root-137 MuiIconButton-root-131 BasicFavoriteButton-root-130"
+              disabled={false}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button">
+              <span
+                className="MuiIconButton-label-136">
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-140"
+                  color={undefined}
+                  focusable="false"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none" />
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-147" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
