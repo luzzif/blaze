@@ -1,13 +1,13 @@
 import React from "react";
-import { ArrowBack } from "@material-ui/icons";
-import { BackButton } from "./../../../components/back-button";
+import { Favorite } from "@material-ui/icons";
+import { FavoriteButton } from "../../../components/favorite-button";
 import TestRenderer from "react-test-renderer";
 
-describe("back button", () => {
+describe("favorite button", () => {
     let testInstance = null;
 
     beforeEach(() => {
-        testInstance = TestRenderer.create(<BackButton />);
+        testInstance = TestRenderer.create(<FavoriteButton />);
     });
 
     it("renders correctly", () => {
@@ -17,10 +17,11 @@ describe("back button", () => {
 
     it("should be clickable", () => {
         expect(testInstance.root.findByType("button").props.disabled).toBe(false);
+        expect(testInstance).toMatchSnapshot();
     });
 
-    it("should contain a arrow back icon", () => {
-        expect(testInstance.root.findByType(ArrowBack)).toBeTruthy();
+    it("should contain a favorite icon", () => {
+        expect(testInstance.root.findByType(Favorite)).toBeTruthy();
         expect(testInstance).toMatchSnapshot();
     });
 });

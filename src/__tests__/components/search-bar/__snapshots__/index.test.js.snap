@@ -1,0 +1,143 @@
+exports[`search bar should be rendered 1`] = `
+<div
+  className="MuiPaper-root-6 MuiPaper-elevation1-9 MuiPaper-rounded-7 MuiCard-root-5 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-33 BasicSearchBar-content-2">
+    <div
+      className="BasicSearchBar-container-3">
+      <input
+        className="BasicSearchBar-input-4"
+        type="text" />
+      <button
+        className="MuiButtonBase-root-41 MuiIconButton-root-35 BasicFavoriteButton-root-34"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button">
+        <span
+          className="MuiIconButton-label-40">
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-44"
+            color={undefined}
+            focusable="false"
+            viewBox="0 0 24 24">
+            <path
+              d="M0 0h24v24H0z"
+              fill="none" />
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root-51" />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`search bar should contain a favorite button 1`] = `
+<div
+  className="MuiPaper-root-6 MuiPaper-elevation1-9 MuiPaper-rounded-7 MuiCard-root-5 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-33 BasicSearchBar-content-2">
+    <div
+      className="BasicSearchBar-container-3">
+      <input
+        className="BasicSearchBar-input-4"
+        type="text" />
+      <button
+        className="MuiButtonBase-root-41 MuiIconButton-root-35 BasicFavoriteButton-root-34"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button">
+        <span
+          className="MuiIconButton-label-40">
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-44"
+            color={undefined}
+            focusable="false"
+            viewBox="0 0 24 24">
+            <path
+              d="M0 0h24v24H0z"
+              fill="none" />
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root-51" />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`search bar should contain an input of type text 1`] = `
+<div
+  className="MuiPaper-root-6 MuiPaper-elevation1-9 MuiPaper-rounded-7 MuiCard-root-5 BasicSearchBar-root-1">
+  <div
+    className="MuiCardContent-root-33 BasicSearchBar-content-2">
+    <div
+      className="BasicSearchBar-container-3">
+      <input
+        className="BasicSearchBar-input-4"
+        type="text" />
+      <button
+        className="MuiButtonBase-root-41 MuiIconButton-root-35 BasicFavoriteButton-root-34"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex="0"
+        type="button">
+        <span
+          className="MuiIconButton-label-40">
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-44"
+            color={undefined}
+            focusable="false"
+            viewBox="0 0 24 24">
+            <path
+              d="M0 0h24v24H0z"
+              fill="none" />
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root-51" />
+      </button>
+    </div>
+  </div>
+</div>
+`;

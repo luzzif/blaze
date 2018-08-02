@@ -1,26 +1,27 @@
 import React from "react";
-import { ArrowBack } from "@material-ui/icons";
-import { BackButton } from "./../../../components/back-button";
+import { SettingsButton } from "./../../../components/settings-button";
 import TestRenderer from "react-test-renderer";
+import { Menu } from "@material-ui/icons";
 
-describe("back button", () => {
+describe("settings button", () => {
     let testInstance = null;
 
     beforeEach(() => {
-        testInstance = TestRenderer.create(<BackButton />);
+        testInstance = TestRenderer.create(<SettingsButton />);
     });
 
-    it("renders correctly", () => {
+    it("should be rendered", () => {
         expect(testInstance.toJSON().type).toBe("button");
         expect(testInstance).toMatchSnapshot();
     });
 
     it("should be clickable", () => {
         expect(testInstance.root.findByType("button").props.disabled).toBe(false);
+        expect(testInstance).toMatchSnapshot();
     });
 
-    it("should contain a arrow back icon", () => {
-        expect(testInstance.root.findByType(ArrowBack)).toBeTruthy();
+    it("should contain a menu icon", () => {
+        expect(testInstance.root.findByType(Menu)).toBeTruthy();
         expect(testInstance).toMatchSnapshot();
     });
 });

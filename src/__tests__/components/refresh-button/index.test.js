@@ -1,13 +1,13 @@
 import React from "react";
-import { ArrowBack } from "@material-ui/icons";
-import { BackButton } from "./../../../components/back-button";
+import { Refresh } from "@material-ui/icons";
+import { RefreshButton } from "../../../components/refresh-button";
 import TestRenderer from "react-test-renderer";
 
-describe("back button", () => {
+describe("refresh button", () => {
     let testInstance = null;
 
     beforeEach(() => {
-        testInstance = TestRenderer.create(<BackButton />);
+        testInstance = TestRenderer.create(<RefreshButton />);
     });
 
     it("renders correctly", () => {
@@ -17,10 +17,11 @@ describe("back button", () => {
 
     it("should be clickable", () => {
         expect(testInstance.root.findByType("button").props.disabled).toBe(false);
+        expect(testInstance).toMatchSnapshot();
     });
 
-    it("should contain a arrow back icon", () => {
-        expect(testInstance.root.findByType(ArrowBack)).toBeTruthy();
+    it("should contain a refresh icon", () => {
+        expect(testInstance.root.findByType(Refresh)).toBeTruthy();
         expect(testInstance).toMatchSnapshot();
     });
 });

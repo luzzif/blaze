@@ -1,0 +1,5 @@
+exports[`web view should be rendered 1`] = `
+<webview
+  className="BasicWebView-root-1"
+  src="http://www.github.com" />
+`;
