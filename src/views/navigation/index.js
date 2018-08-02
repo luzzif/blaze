@@ -23,11 +23,7 @@ class BasicNavigation extends Component {
                     <BackButton />
                     <ForwardButton />
                     <RefreshButton />
-                    <Grid container justify="center">
-                        <Grid item md={6}>
-                            <SearchBar />
-                        </Grid>
-                    </Grid>
+                    <SearchBar />
                     <SettingsButton />
                 </CardContent>
             </Card>
