@@ -4,8 +4,22 @@ const BrowserWindow = electron.BrowserWindow;
 
 const path = require("path");
 const url = require("url");
+const PATHS = require("./env");
 
 let mainWindow;
+
+const isDev = () => {
+    return process.mainModule.filename.indexOf("app.asar") === -1;
+};
+
+const installExtensions = () => {
+    const { EXTENSION_IDS, BASE_PATH } = PATHS;
+    EXTENSION_IDS &&
+        BASE_PATH &&
+        EXTENSION_IDS.split(",").forEach(extensionPath =>
+            BrowserWindow.addDevToolsExtension(BASE_PATH + extensionPath)
+        );
+};
 
 const createWindow = () => {
     mainWindow = new BrowserWindow();
@@ -22,6 +36,9 @@ const createWindow = () => {
     mainWindow.on("closed", () => {
         mainWindow = null;
     });
+    if (isDev()) {
+        installExtensions();
+    }
 };
 
 app.on("ready", createWindow);
