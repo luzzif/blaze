@@ -11,7 +11,7 @@ describe("forward button", () => {
     });
 
     it("renders correctly", () => {
-        expect(testInstance).toMatchSnapshot();
+        expect(testInstance.toJSON().type).toBe("button");
         expect(testInstance).toMatchSnapshot();
     });
 

@@ -3,7 +3,7 @@ import { Refresh } from "@material-ui/icons";
 import { RefreshButton } from "../../../components/refresh-button";
 import TestRenderer from "react-test-renderer";
 
-describe("favorite button", () => {
+describe("refresh button", () => {
     let testInstance = null;
 
     beforeEach(() => {

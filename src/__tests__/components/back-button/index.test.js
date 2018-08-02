@@ -11,6 +11,7 @@ describe("back button", () => {
     });
 
     it("renders correctly", () => {
+        expect(testInstance.toJSON().type).toBe("button");
         expect(testInstance).toMatchSnapshot();
     });
 
