@@ -17,6 +17,7 @@ describe("back button", () => {
 
     it("should be clickable", () => {
         expect(testInstance.root.findByType("button").props.disabled).toBe(false);
+        expect(testInstance).toMatchSnapshot();
     });
 
     it("should contain a arrow back icon", () => {
