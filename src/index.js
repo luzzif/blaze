@@ -1,11 +1,11 @@
+import "babel-polyfill";
+import "raf/polyfill";
 import React from "react";
 import ReactDOM from "react-dom";
 import { App } from "./views/app";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { reducers } from "./reducers";
-import "babel-polyfill";
-import "raf/polyfill";
 
 const store = createStore(
     reducers,
