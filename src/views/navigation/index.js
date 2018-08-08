@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Card, CardContent, withStyles, Grid } from "@material-ui/core";
+import { Card, CardContent, withStyles } from "@material-ui/core";
 import { styles } from "./styles";
 import { compose } from "redux";
 import { ForwardButton } from "../../components/forward-button";

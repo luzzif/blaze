@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Card, CardContent, withStyles, Grid } from "@material-ui/core";
+import { Card, CardContent, withStyles } from "@material-ui/core";
 import { compose } from "redux";
 import { styles } from "./styles";
 import { FavoriteButton } from "../favorite-button";
