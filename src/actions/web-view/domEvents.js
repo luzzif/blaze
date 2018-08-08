@@ -6,10 +6,8 @@ export const domReady = () => ({
 export const LOAD_COMMIT = "LOAD_COMMIT";
 export const loadCommit = (url, isMainFrame) => ({
     type: LOAD_COMMIT,
-    payload: {
-        url,
-        isMainFrame
-    }
+    url,
+    isMainFrame
 });
 
 export const DID_START_LOADING = "DID_START_LOADING";
@@ -29,9 +27,7 @@ export const didFinishLoad = () => ({
 });
 export const didFrameFinishLoad = isMainFrame => ({
     type: DID_FRAME_FINISH_LOAD,
-    payload: {
-        isMainFrame
-    }
+    isMainFrame
 });
 export const didFailLoad = (
     errorCode,
@@ -40,12 +36,10 @@ export const didFailLoad = (
     isMainFrame
 ) => ({
     type: DID_FAIL_LOAD,
-    payload: {
-        errorCode,
-        errorDescription,
-        validatedURL,
-        isMainFrame
-    }
+    errorCode,
+    errorDescription,
+    validatedURL,
+    isMainFrame
 });
 
 export const DID_GET_RESPONSE_DETAILS = "DID_GET_RESPONSE_DETAILS";
@@ -60,26 +54,22 @@ export const didGetResponseDetails = (
     resourceType
 ) => ({
     type: DID_GET_RESPONSE_DETAILS,
-    payload: {
-        status,
-        newUrl,
-        originalUrl,
-        httpResponseCode,
-        requestMethod,
-        referrer,
-        headers,
-        resourceType
-    }
+    status,
+    newUrl,
+    originalUrl,
+    httpResponseCode,
+    requestMethod,
+    referrer,
+    headers,
+    resourceType
 });
 
 export const DID_GET_REDIRECT_REQUEST = "DID_GET_REDIRECT_REQUEST";
 export const didGetRedirectRequest = (oldUrl, newUrl, isMainFrame) => ({
     type: DID_GET_REDIRECT_REQUEST,
-    payload: {
-        oldUrl,
-        newUrl,
-        isMainFrame
-    }
+    oldUrl,
+    newUrl,
+    isMainFrame
 });
 
 export const PAGE_TITLE_UPDATED = "PAGE_TITLE_UPDATED";
@@ -87,16 +77,12 @@ export const PAGE_FAVICON_UPDATED = "PAGE_FAVICON_UPDATED";
 
 export const pageTitleUpdated = (title, explicitSet) => ({
     type: PAGE_TITLE_UPDATED,
-    payload: {
-        title,
-        explicitSet
-    }
+    title,
+    explicitSet
 });
 export const pageFaviconUpdated = favicons => ({
     type: PAGE_FAVICON_UPDATED,
-    payload: {
-        favicons
-    }
+    favicons
 });
 
 export const ENTER_HTML_FULL_SCREEN = "ENTER_HTML_FULL_SCREEN";
@@ -112,12 +98,10 @@ export const leaveHtmlFullScreen = () => ({
 export const CONSOLE_MESSAGE = "CONSOLE_MESSAGE";
 export const consoleMessage = (level, message, line, sourceId) => ({
     type: CONSOLE_MESSAGE,
-    payload: {
-        level,
-        message,
-        line,
-        sourceId
-    }
+    level,
+    message,
+    line,
+    sourceId
 });
 
 export const FOUND_IN_PAGE = "FOUND_IN_PAGE";
@@ -129,24 +113,20 @@ export const foundInPage = ({
     finalUpdate
 }) => ({
     type: FOUND_IN_PAGE,
-    payload: {
-        requestId,
-        activeMatchOrdinal,
-        matches,
-        selectionArea,
-        finalUpdate
-    }
+    requestId,
+    activeMatchOrdinal,
+    matches,
+    selectionArea,
+    finalUpdate
 });
 
 export const NEW_WINDOW = "NEW_WINDOW";
 export const newWindow = (url, frameName, disposition, options) => ({
     type: NEW_WINDOW,
-    payload: {
-        url,
-        frameName,
-        disposition,
-        options
-    }
+    url,
+    frameName,
+    disposition,
+    options
 });
 
 export const WILL_NAVIGATE = "WILL_NAVIGATE";
@@ -155,22 +135,16 @@ export const DID_NAVIGATE_IN_PAGE = "DID_NAVIGATE_IN_PAGE";
 
 export const willNavigate = url => ({
     type: WILL_NAVIGATE,
-    payload: {
-        url
-    }
+    url
 });
 export const didNavigate = url => ({
     type: DID_NAVIGATE,
-    payload: {
-        url
-    }
+    url
 });
 export const didNavigateInPage = (isMainFrame, url) => ({
     type: DID_NAVIGATE_IN_PAGE,
-    payload: {
-        isMainFrame,
-        url
-    }
+    isMainFrame,
+    url
 });
 
 export const CLOSE = "CLOSE";
@@ -181,10 +155,8 @@ export const close = () => ({
 export const IPC_MESSAGE = "IPC_MESSAGE";
 export const ipcMessage = (channel, args) => ({
     type: IPC_MESSAGE,
-    payload: {
-        channel,
-        args
-    }
+    channel,
+    args
 });
 
 export const CRASHED = "CRASHED";
@@ -200,10 +172,8 @@ export const gpuCrashed = () => ({
 export const PLUGIN_CRASHED = "PLUGIN_CRASHED";
 export const pluginCrashed = (name, version) => ({
     type: PLUGIN_CRASHED,
-    payload: {
-        name,
-        version
-    }
+    name,
+    version
 });
 
 export const DESTROYED = "DESTROYED";
@@ -224,17 +194,13 @@ export const mediaPaused = () => ({
 export const DID_CHANGE_THEME_COLOR = "DID_CHANGE_THEME_COLOR";
 export const didChangeThemeColor = themeColor => ({
     type: DID_CHANGE_THEME_COLOR,
-    payload: {
-        themeColor
-    }
+    themeColor
 });
 
 export const UPDATE_TARGET_URL = "UPDATE_TARGET_URL";
 export const updateTargetUrl = url => ({
     type: UPDATE_TARGET_URL,
-    payload: {
-        url
-    }
+    url
 });
 
 export const DEV_TOOLS_OPENED = "DEV_TOOLS_OPENED";
